@@ -11,5 +11,6 @@ namespace RentBer.Models
         public Guid RentalAgreementId { get; set; }
         public DateTime DueDate { get; set; }
         public bool IsPaid { get; set; }
+        public DateTime? PaidDate { get; set; }
     }
 }
